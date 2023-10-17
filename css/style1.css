@@ -1,0 +1,112 @@
+body {margin:0;}
+
+#nav {
+	width: 100%;
+	float: left;
+	margin: 0 0 3em 0;
+	padding: 0;
+	list-style: none;
+	background-color: #A8AEDF;
+	border-bottom: 1px solid #ccc; 
+	border-top: 1px solid #ccc; }
+#nav li {
+	float: left; }
+#nav li a {
+	display: block;
+	padding: 8px 15px;
+	text-decoration: none;
+	font-family: "MS Serif", "New York", serif;
+	font-size:14px;
+	font-weight:bold;
+	color: black;
+	border-right: 1px solid #ccc; }
+#nav li a:hover {
+	color: #c00;
+	background-color: #fff; }
+
+
+body {font-family:Arial, Sans-Serif;}
+h3 { 
+font-family: Verdana, Geneva, sans-serif;
+color:#09F;
+}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#0067ab; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.form{
+	width: 80%;
+	margin-top: auto;
+	margin-left: 10%;
+	background-color:#E5E5E5
+}
+
+.l{
+	width: 15%;
+	float: left;
+	margin: auto auto auto auto;
+	background-color:#EFEFEF;
+}
+
+.ppic{
+	width: 100%;
+	height: 40%;
+	float: left;
+	margin: auto auto auto auto;
+}
+
+.brw{
+	width: 100%;
+	float: left;
+	height: 59%;
+	margin: auto auto auto auto;
+ 
+}
+.r{
+	width: 84.5%;
+	float:right;
+	/*margin: auto auto auto auto;*/
+	background-color: #F7F7F7;
+}
+.pb{
+	width:97%;
+	padding-left:3%;
+	margin: auto auto auto auto;
+}
+.prl{
+	width: 26%;
+	/*padding-left:3%;*/
+	float:left;
+	/*margin: auto auto auto auto;*/
+}
+.prr{
+	width: 70%;
+	float:right;
+	margin: auto auto auto auto;
+}
+.botomform{
+	width: 100%;
+	clear:both;
+	padding-left:20%;
+	margin: auto auto auto auto;
+}
+input[type='date'],input[type='text'], input[type='email'], input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 5px; color: #333; font-size: 14px; margin-top: 5px;}
+
+
+
+input[name='submit']
+{
+	padding: 4px 15px 3px; 
+	color: #fff; 
+	background-color: #5782E3; 
+	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+	font-size: 14px; 
+	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+	border: 1px solid #0164a5; 
+	border-radius: 2px; 
+	margin-top: 10px; 
+	cursor:pointer;
+	}
+
+input[name='register'],input[name='update'],input[name='delete'],input[name='search']{padding: 10px 25px 8px; color: #fff; background-color: #0067ab; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #0164a5; border-radius: 2px; margin-top: 10px; cursor:pointer;}

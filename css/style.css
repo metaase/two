@@ -1,0 +1,88 @@
+/*
+Author: Javed Ur Rehman
+Website: http://www.allphptricks.com/
+*/
+
+body {font-family:Arial, Sans-Serif;}
+h3 { 
+font-family: Verdana, Geneva, sans-serif;
+color:#09F;
+}
+h1 { 
+font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+font-size:18px;
+color:#09F;
+}
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+a {color:#0067ab; text-decoration:none;}
+a:hover {text-decoration:underline;}
+
+.form{
+	width: 80%;
+	margin-top: 0;
+	margin-right: auto;
+	margin-bottom: 0;
+	margin-left: 5;
+}
+.profile{
+	width: 100%;
+	clear:both;
+	margin: auto auto auto auto;
+}
+.profilepic{
+	width: 20%;
+	float:left;
+	margin: auto auto auto auto;
+}
+.profilebasic{
+	width: 80%;
+	float: right;
+	padding-left:2%
+	border: 1px solid black;
+	margin: auto auto auto auto;
+}
+.leftform{
+	width: 30%;
+	float:left;
+	margin: auto auto auto auto;
+}
+.rigthform{
+	width: 70%;
+	float:right;
+	margin: auto auto auto auto;
+}
+.botomform{
+	width: 100%;
+	clear:both;
+	padding-left:20%;
+	margin: auto auto auto auto;
+}
+input[type='date'],input[type='text'], input[type='email'], input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 5px; color: #333; font-size: 14px; margin-top: 5px;}
+
+input[name='submit']
+{
+	padding: 8px 20px 6px; 
+	color: #fff; 
+	background-color: #0067ab; 
+	text-shadow: rgba(0,0,0,0.24) 0 1px 0; 
+	font-size: 16px; 
+	box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; 
+	border: 1px solid #0164a5; 
+	border-radius: 2px; 
+	margin-top: 10px; 
+	cursor:pointer;
+	}
+
+.f1{
+	width:30%;
+	background-color:#FFF;
+	margin-left:25%;
+	margin-top:5%;
+	padding-left:5%;
+	
+}
+
+.f1 input[type='text'], .f1 input[type='password'] {width: 200px; border-radius: 2px;border: 1px solid #CCC; padding: 5px; color: #333; font-size: 14px; margin-top: 5px;}
+
+input[name='register'],input[name='slogin'],input[name='alogin']{padding: 10px 25px 8px; color: #fff; background-color: #0067ab; text-shadow: rgba(0,0,0,0.24) 0 1px 0; font-size: 16px; box-shadow: rgba(255,255,255,0.24) 0 2px 0 0 inset,#fff 0 1px 0 0; border: 1px solid #0164a5; border-radius: 2px; margin-top: 10px; cursor:pointer;}
